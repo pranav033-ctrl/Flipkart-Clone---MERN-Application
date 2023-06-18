@@ -31,7 +31,7 @@ const Navbar = () => {
             ))
         }
         </NavbarWrapper>
-    )
+    );
 }
 
 export default Navbar;

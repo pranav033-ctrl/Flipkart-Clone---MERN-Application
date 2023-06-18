@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import CarouselBanner from "./CarouselBanner";
+import DealsOfTheDays from "./DealsoftheDays";
 
 import { Box } from "@mui/material";
 
@@ -12,6 +13,9 @@ const Home = () => {
             
             <Box>
                 <CarouselBanner />
+            </Box>
+            <Box>
+                <DealsOfTheDays />
             </Box>
         </>
     );
